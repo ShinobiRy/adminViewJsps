@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Users</title>
+</head>
+<body>
+    <style>
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			height: 100vh;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 20px;
+		}
+
+        button{
+            display: flex;
+			flex-direction: column;
+			align-items: center;
+        }
+	</style>
+
+    <h1>Here are all the users</h1>
+	<p> </p>
+	<form>
+		<label for="user-search">Search for a user:</label>
+		<input type="text" id="user-search" name="user-search">
+		<button type="submit">Search</button>
+	</form>
+    <p> </p>
+    <button type="submit">Generate PDF</button>
+
+</body>
+</html>
