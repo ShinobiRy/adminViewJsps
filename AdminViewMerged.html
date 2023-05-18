@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin View</title>
+  
+</head>
+<body>
+
+  <form class="add-user-form">
+  <div class="content">
+    <div class="form-container">
+      <div class="label">Add User</div>
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <input type="text" placeholder="Captcha">
+      <button>Add User</button>
+    </div>
+    </form>
+
+    <p></p>
+
+    <form class="delete-user-form">
+    <div class="form-container">
+      <div class="label">Delete User</div>
+      <input type="text" placeholder="Username">
+      <input type="text" placeholder="Captcha">
+      <button>Delete User</button>
+    </div>
+    </form>
+    
+    <p></p>
+
+    <form class="edit-user-form">
+    <div class="form-container">
+      <div class="label">Edit User</div>
+      <input type="text" placeholder="Username to edit">
+      <input type="text" placeholder="New Username">
+      <input type="text" placeholder="New Password">
+        <label for="user-role">User Role:</label>
+        <select id="user-role" name="user-role">
+            <option value="admin">Admin</option>
+            <option value="guest">Guest</option>
+        </select>
+        <button>Edit User</button>
+        
+    </form>
+
+    
+    </div>
+  </div>
+</body>
+</html>
